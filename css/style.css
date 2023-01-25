@@ -4,8 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-                                                                      /*REGOLE DI DEBUG*/
-                                                                      
 .container-nav{
     background-color: rgb(255, 105, 0);
     height: 70px;
@@ -64,7 +62,7 @@
 /*Inizio stilizzazione main*/
 .container-main{
     width: 1200px;
-    height: 1400px;
+    height: 1160px;
     margin: 40px auto;
     display: flex;
     justify-content: space-around;
@@ -74,6 +72,7 @@
 .col1, .col2, .col3, .col4, .col5, .col6{ 
     height: 600px;
     width: 350px;
+    position: relative;
 }
 /*Fine creazione colonne */
 /*Inizio stilizzazione colonne */
@@ -94,3 +93,105 @@ p .price-notsale{
     font-size: 11px;
 }
 /*Fine stilizzazione testo prezzo marca */
+/*Inizio introduzione cartellini sconto */
+.sales{
+    width: 35px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    bottom: 120px;
+}
+h6{
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 4px;
+}
+.sustain{
+    width: 75px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+    bottom: 120px;
+    left: 38px;
+}
+.sustain1{
+    width: 75px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+    bottom: 120px; 
+}
+.heart{
+    height: 50px;
+    width: 50px;
+
+    position: absolute;
+    top: 7px;
+    right: 0px;
+}
+.heartred{
+    font-size: 30px;
+    padding-left: 10px;
+    color: black;
+}
+/*Fine introduzione cartellini  */
+/*Inizio footer*/
+.containerfooter{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+.flexfooter{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.azienda{
+  width: calc(80% / 2);  
+}
+.social{
+    width: calc(80% / 2);   
+}
+.coda{
+    color: white;
+    font-size: 13px;
+    padding-left: 10px;
+}
+.coda-info, .coda-info1{
+    color: white;
+    padding-left: 10px;
+    font-size: 10px;
+    text-decoration: none;
+}
+.coda1{
+    color: white;
+    font-size: 13px;
+    padding-left: 340px;
+}
+.logosocial{
+    color: white;
+}
+.socialfooter{
+    padding-left: 345px;
+    padding-top: 10px;
+}
+/*parte hover*/
+.heartred:hover{
+    color: red;
+}
+.coda-info:hover{
+    color: rgb(255, 105, 0);
+}
+.logosocial:hover{
+    color: rgb(255, 105, 0);
+}
+a:hover{
+    color: black;
+}
+
+
+
