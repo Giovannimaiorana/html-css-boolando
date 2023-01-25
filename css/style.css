@@ -20,17 +20,65 @@
     margin: auto; 
     display: flex;   
 }
+/*Inizio stilizzazione gender*/
 .gender{
     width: calc(30%);
     height: 100%;
 }
+.gender ul{
+    list-style: none;
+   display: flex;
+   padding-top: 25px;
+  
+}
+.gender ul li a{
+    text-decoration: none;
+    color: white;
+}
+.gender ul li{
+    padding-left: 10px;
+}
+/*Fine stilizzazione gender*/
+/*Inizio stilizzazione logo*/
 .logo{
     width: calc(40%);
     height: 100%;
     display: flex;
 }
-
+.logo-b{
+    height: 25px;
+    margin-top:20px;
+    padding-left: 200px;
+}
+/*Fine stilizzazione logo*/
+/*Inizio stilizzazione Profile*/
 .profile{
     width: calc(30%);
     height: 100%;
+    display: flex;
+    padding-left: 280px;
+}
+.profile a{
+    color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+    justify-content: flex-end;
+}
+/*Fine stilizzazione logo*/
+/*Inizio stilizzazione main*/
+.container-main{
+    width: 1200px;
+    height: 1400px;
+    margin: 40px auto;
+    background-color:cyan;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+/*Inizio colonne */
+.col1, .col2, .col3{ 
+    height: 600px;
+    width: 350px;
+    background-color: black;
+   
 }
