@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
                                                                       /*REGOLE DI DEBUG*/
-                                                                      .flex-containernav{
-                                                                        
+                                                                      .container-main{
+                                                                        background-color:chocolate ;
                                                                       }
-
+                                                                      .col1, .col2, .col3, .col4, .col5, .col6{ 
+                                                                        background-color: black;     
+                                                                       }
+                                                                    
 
 
 .container-nav{
@@ -70,15 +73,12 @@
     width: 1200px;
     height: 1400px;
     margin: 40px auto;
-    background-color:cyan;
     display: flex;
     justify-content: space-around;
     flex-wrap:wrap;
 }
 /*Inizio colonne */
-.col1, .col2, .col3{ 
+.col1, .col2, .col3, .col4, .col5, .col6{ 
     height: 600px;
     width: 350px;
-    background-color: black;
-   
 }
